@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		298A44DD1B4A93F3009F8668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44DC1B4A93F3009F8668 /* AppDelegate.swift */; };
+		298A44DF1B4A93F3009F8668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44DE1B4A93F3009F8668 /* ViewController.swift */; };
+		298A44E21B4A93F3009F8668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298A44E01B4A93F3009F8668 /* Main.storyboard */; };
+		298A44E41B4A93F3009F8668 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298A44E31B4A93F3009F8668 /* Images.xcassets */; };
+		298A44E71B4A93F3009F8668 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298A44E51B4A93F3009F8668 /* LaunchScreen.xib */; };
+		298A44F31B4A93F3009F8668 /* GlassyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44F21B4A93F3009F8668 /* GlassyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		298A44ED1B4A93F3009F8668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 298A44CF1B4A93F3009F8668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298A44D61B4A93F3009F8668;
+			remoteInfo = Glassy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		298A44D71B4A93F3009F8668 /* Glassy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glassy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		298A44DB1B4A93F3009F8668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298A44DC1B4A93F3009F8668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		298A44DE1B4A93F3009F8668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		298A44E11B4A93F3009F8668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		298A44E31B4A93F3009F8668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		298A44E61B4A93F3009F8668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		298A44EC1B4A93F3009F8668 /* GlassyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298A44F11B4A93F3009F8668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298A44F21B4A93F3009F8668 /* GlassyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		298A44D41B4A93F3009F8668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298A44E91B4A93F3009F8668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		298A44CE1B4A93F3009F8668 = {
+			isa = PBXGroup;
+			children = (
+				298A44D91B4A93F3009F8668 /* Glassy */,
+				298A44EF1B4A93F3009F8668 /* GlassyTests */,
+				298A44D81B4A93F3009F8668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		298A44D81B4A93F3009F8668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				298A44D71B4A93F3009F8668 /* Glassy.app */,
+				298A44EC1B4A93F3009F8668 /* GlassyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		298A44D91B4A93F3009F8668 /* Glassy */ = {
+			isa = PBXGroup;
+			children = (
+				298A44DC1B4A93F3009F8668 /* AppDelegate.swift */,
+				298A44DE1B4A93F3009F8668 /* ViewController.swift */,
+				298A44E01B4A93F3009F8668 /* Main.storyboard */,
+				298A44E31B4A93F3009F8668 /* Images.xcassets */,
+				298A44E51B4A93F3009F8668 /* LaunchScreen.xib */,
+				298A44DA1B4A93F3009F8668 /* Supporting Files */,
+			);
+			path = Glassy;
+			sourceTree = "<group>";
+		};
+		298A44DA1B4A93F3009F8668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				298A44DB1B4A93F3009F8668 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		298A44EF1B4A93F3009F8668 /* GlassyTests */ = {
+			isa = PBXGroup;
+			children = (
+				298A44F21B4A93F3009F8668 /* GlassyTests.swift */,
+				298A44F01B4A93F3009F8668 /* Supporting Files */,
+			);
+			path = GlassyTests;
+			sourceTree = "<group>";
+		};
+		298A44F01B4A93F3009F8668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				298A44F11B4A93F3009F8668 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		298A44D61B4A93F3009F8668 /* Glassy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298A44F61B4A93F3009F8668 /* Build configuration list for PBXNativeTarget "Glassy" */;
+			buildPhases = (
+				298A44D31B4A93F3009F8668 /* Sources */,
+				298A44D41B4A93F3009F8668 /* Frameworks */,
+				298A44D51B4A93F3009F8668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glassy;
+			productName = Glassy;
+			productReference = 298A44D71B4A93F3009F8668 /* Glassy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		298A44EB1B4A93F3009F8668 /* GlassyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298A44F91B4A93F3009F8668 /* Build configuration list for PBXNativeTarget "GlassyTests" */;
+			buildPhases = (
+				298A44E81B4A93F3009F8668 /* Sources */,
+				298A44E91B4A93F3009F8668 /* Frameworks */,
+				298A44EA1B4A93F3009F8668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298A44EE1B4A93F3009F8668 /* PBXTargetDependency */,
+			);
+			name = GlassyTests;
+			productName = GlassyTests;
+			productReference = 298A44EC1B4A93F3009F8668 /* GlassyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		298A44CF1B4A93F3009F8668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = smapps;
+				TargetAttributes = {
+					298A44D61B4A93F3009F8668 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					298A44EB1B4A93F3009F8668 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 298A44D61B4A93F3009F8668;
+					};
+				};
+			};
+			buildConfigurationList = 298A44D21B4A93F3009F8668 /* Build configuration list for PBXProject "Glassy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 298A44CE1B4A93F3009F8668;
+			productRefGroup = 298A44D81B4A93F3009F8668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				298A44D61B4A93F3009F8668 /* Glassy */,
+				298A44EB1B4A93F3009F8668 /* GlassyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		298A44D51B4A93F3009F8668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298A44E21B4A93F3009F8668 /* Main.storyboard in Resources */,
+				298A44E71B4A93F3009F8668 /* LaunchScreen.xib in Resources */,
+				298A44E41B4A93F3009F8668 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298A44EA1B4A93F3009F8668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		298A44D31B4A93F3009F8668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298A44DF1B4A93F3009F8668 /* ViewController.swift in Sources */,
+				298A44DD1B4A93F3009F8668 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298A44E81B4A93F3009F8668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298A44F31B4A93F3009F8668 /* GlassyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		298A44EE1B4A93F3009F8668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298A44D61B4A93F3009F8668 /* Glassy */;
+			targetProxy = 298A44ED1B4A93F3009F8668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		298A44E01B4A93F3009F8668 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298A44E11B4A93F3009F8668 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		298A44E51B4A93F3009F8668 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298A44E61B4A93F3009F8668 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		298A44F41B4A93F3009F8668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		298A44F51B4A93F3009F8668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		298A44F71B4A93F3009F8668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Glassy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		298A44F81B4A93F3009F8668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Glassy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		298A44FA1B4A93F3009F8668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlassyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glassy.app/Glassy";
+			};
+			name = Debug;
+		};
+		298A44FB1B4A93F3009F8668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlassyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glassy.app/Glassy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		298A44D21B4A93F3009F8668 /* Build configuration list for PBXProject "Glassy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298A44F41B4A93F3009F8668 /* Debug */,
+				298A44F51B4A93F3009F8668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298A44F61B4A93F3009F8668 /* Build configuration list for PBXNativeTarget "Glassy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298A44F71B4A93F3009F8668 /* Debug */,
+				298A44F81B4A93F3009F8668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		298A44F91B4A93F3009F8668 /* Build configuration list for PBXNativeTarget "GlassyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298A44FA1B4A93F3009F8668 /* Debug */,
+				298A44FB1B4A93F3009F8668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 298A44CF1B4A93F3009F8668 /* Project object */;
+}
