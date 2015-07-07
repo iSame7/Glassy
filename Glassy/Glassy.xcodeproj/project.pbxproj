@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		298A44DD1B4A93F3009F8668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44DC1B4A93F3009F8668 /* AppDelegate.swift */; };
-		298A44DF1B4A93F3009F8668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44DE1B4A93F3009F8668 /* ViewController.swift */; };
 		298A44E21B4A93F3009F8668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298A44E01B4A93F3009F8668 /* Main.storyboard */; };
 		298A44E41B4A93F3009F8668 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298A44E31B4A93F3009F8668 /* Images.xcassets */; };
 		298A44E71B4A93F3009F8668 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298A44E51B4A93F3009F8668 /* LaunchScreen.xib */; };
 		298A44F31B4A93F3009F8668 /* GlassyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44F21B4A93F3009F8668 /* GlassyTests.swift */; };
+		298A45011B4A9452009F8668 /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44FC1B4A9452009F8668 /* UIImageEffects.swift */; };
+		298A45021B4A9452009F8668 /* GlassyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44FD1B4A9452009F8668 /* GlassyScrollView.swift */; };
+		298A45031B4A9452009F8668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44FE1B4A9452009F8668 /* AppDelegate.swift */; };
+		298A45041B4A9452009F8668 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44FF1B4A9452009F8668 /* FirstViewController.swift */; };
+		298A45051B4A9452009F8668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A45001B4A9452009F8668 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +31,17 @@
 /* Begin PBXFileReference section */
 		298A44D71B4A93F3009F8668 /* Glassy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glassy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298A44DB1B4A93F3009F8668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		298A44DC1B4A93F3009F8668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		298A44DE1B4A93F3009F8668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		298A44E11B4A93F3009F8668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		298A44E31B4A93F3009F8668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		298A44E61B4A93F3009F8668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		298A44EC1B4A93F3009F8668 /* GlassyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		298A44F11B4A93F3009F8668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		298A44F21B4A93F3009F8668 /* GlassyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassyTests.swift; sourceTree = "<group>"; };
+		298A44FC1B4A9452009F8668 /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
+		298A44FD1B4A9452009F8668 /* GlassyScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassyScrollView.swift; sourceTree = "<group>"; };
+		298A44FE1B4A9452009F8668 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		298A44FF1B4A9452009F8668 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		298A45001B4A9452009F8668 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,11 @@
 		298A44D91B4A93F3009F8668 /* Glassy */ = {
 			isa = PBXGroup;
 			children = (
-				298A44DC1B4A93F3009F8668 /* AppDelegate.swift */,
-				298A44DE1B4A93F3009F8668 /* ViewController.swift */,
+				298A44FC1B4A9452009F8668 /* UIImageEffects.swift */,
+				298A44FD1B4A9452009F8668 /* GlassyScrollView.swift */,
+				298A44FE1B4A9452009F8668 /* AppDelegate.swift */,
+				298A44FF1B4A9452009F8668 /* FirstViewController.swift */,
+				298A45001B4A9452009F8668 /* ViewController.swift */,
 				298A44E01B4A93F3009F8668 /* Main.storyboard */,
 				298A44E31B4A93F3009F8668 /* Images.xcassets */,
 				298A44E51B4A93F3009F8668 /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298A44DF1B4A93F3009F8668 /* ViewController.swift in Sources */,
-				298A44DD1B4A93F3009F8668 /* AppDelegate.swift in Sources */,
+				298A45051B4A9452009F8668 /* ViewController.swift in Sources */,
+				298A45031B4A9452009F8668 /* AppDelegate.swift in Sources */,
+				298A45021B4A9452009F8668 /* GlassyScrollView.swift in Sources */,
+				298A45011B4A9452009F8668 /* UIImageEffects.swift in Sources */,
+				298A45041B4A9452009F8668 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +352,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Glassy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Glassy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

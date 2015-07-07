@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Glassy
 //
-//  Created by Sameh Mabrouk on 7/6/15.
+//  Created by Sameh Mabrouk on 6/27/15.
 //  Copyright (c) 2015 smapps. All rights reserved.
 //
 
@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        var vController : ViewController? = ViewController()
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        if let window = window {
+            window.backgroundColor = UIColor.orangeColor()
+            window.makeKeyAndVisible()
+            window.rootViewController = vController
+        }
+
         return true
     }
 
