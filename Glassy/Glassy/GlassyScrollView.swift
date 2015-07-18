@@ -42,8 +42,6 @@ class GlassyScrollView: UIView, UIScrollViewDelegate {
     //The view that will contain all the info
     private var foregroundView: UIView!
 
-    private var backgroundScrollView:UIScrollView!
-
     //Shadow layers.
     private var topShadowLayer:CALayer!
     private var botShadowLayer:CALayer!
@@ -51,6 +49,8 @@ class GlassyScrollView: UIView, UIScrollViewDelegate {
     //Masking
     private var foregroundContainerView:UIView!
     private var topMaskImageView:UIImageView!
+
+    private var backgroundScrollView:UIScrollView!
 
     var foregroundScrollView:UIScrollView!
 
@@ -79,7 +79,7 @@ class GlassyScrollView: UIView, UIScrollViewDelegate {
         fatalError("init(coder:) has not been implemented")
     }
 
-    init(frame: CGRect, backgroundImage:UIImage, blurredImage:UIImage, viewDistanceFromBottom:CGFloat, foregroundView:UIView) {
+    init(frame: CGRect, backgroundImage:UIImage, blurredImage:UIImage?, viewDistanceFromBottom:CGFloat, foregroundView:UIView) {
 
         super.init(frame: frame)
         
@@ -123,7 +123,7 @@ class GlassyScrollView: UIView, UIScrollViewDelegate {
 
     // MARK: - Public Methods
     func scrollHorizontalRatio(ratio:CGFloat){
-
+        
         // when the view scroll horizontally, this works the parallax magic
         backgroundScrollView.contentOffset = CGPointMake(maxBackgroundMovementHorizontal+ratio*maxBackgroundMovementHorizontal, backgroundScrollView.contentOffset.y)
     }

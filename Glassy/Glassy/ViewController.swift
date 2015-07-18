@@ -39,11 +39,11 @@ class ViewController: UIViewController,UIScrollViewAccessibilityDelegate {
         viewScroller.showsHorizontalScrollIndicator=false
         self.view.addSubview(viewScroller)
 
-        glassScrollView1=GlassyScrollView(frame: self.view.frame, backgroundImage: UIImage(named: "New York")!, blurredImage: UIImage(named: "background3")!, viewDistanceFromBottom: 120, foregroundView: customView())
+        glassScrollView1=GlassyScrollView(frame: self.view.frame, backgroundImage: UIImage(named: "New York")!, blurredImage: nil, viewDistanceFromBottom: 120, foregroundView: customView())
 
-        glassScrollView2=GlassyScrollView(frame: self.view.frame, backgroundImage: UIImage(named: "New York2")!, blurredImage: UIImage(named: "background3")!, viewDistanceFromBottom: 120, foregroundView: customView())
+        glassScrollView2=GlassyScrollView(frame: self.view.frame, backgroundImage: UIImage(named: "New York2")!, blurredImage: nil, viewDistanceFromBottom: 120, foregroundView: customView())
 
-        glassScrollView3=GlassyScrollView(frame: self.view.frame, backgroundImage: UIImage(named: "Cairo")!, blurredImage: UIImage(named: "background3")!, viewDistanceFromBottom: 120, foregroundView: customView())
+        glassScrollView3=GlassyScrollView(frame: self.view.frame, backgroundImage: UIImage(named: "Cairo")!, blurredImage: nil, viewDistanceFromBottom: 120, foregroundView: customView())
 
         viewScroller.addSubview(glassScrollView1)
         viewScroller.addSubview(glassScrollView2)
@@ -120,7 +120,8 @@ class ViewController: UIViewController,UIScrollViewAccessibilityDelegate {
     }
 
     func scrollViewWillBeginDragging(scrollView: UIScrollView) {
-        let glass:GlassyScrollView = currentGlass()
+
+        let glass:GlassyScrollView = currentGlassyScrollView()
 
         //this is just a demonstration without optimization
         glassScrollView1.scrollVerticallyToOffset(glass.foregroundScrollView.contentOffset.y)
@@ -128,9 +129,9 @@ class ViewController: UIViewController,UIScrollViewAccessibilityDelegate {
         glassScrollView3.scrollVerticallyToOffset(glass.foregroundScrollView.contentOffset.y)
     }
 
-    func currentGlass() ->GlassyScrollView{
+    func currentGlassyScrollView() ->GlassyScrollView{
 
-        var glass:GlassyScrollView!
+        var glass:GlassyScrollView=glassScrollView1
 
         switch page{
         case 0:
@@ -141,15 +142,15 @@ class ViewController: UIViewController,UIScrollViewAccessibilityDelegate {
             glass = glassScrollView3
         default:
             break
-
+            
         }
         return glass
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }

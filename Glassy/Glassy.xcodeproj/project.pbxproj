@@ -14,7 +14,6 @@
 		298A45011B4A9452009F8668 /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44FC1B4A9452009F8668 /* UIImageEffects.swift */; };
 		298A45021B4A9452009F8668 /* GlassyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44FD1B4A9452009F8668 /* GlassyScrollView.swift */; };
 		298A45031B4A9452009F8668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44FE1B4A9452009F8668 /* AppDelegate.swift */; };
-		298A45041B4A9452009F8668 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A44FF1B4A9452009F8668 /* FirstViewController.swift */; };
 		298A45051B4A9452009F8668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A45001B4A9452009F8668 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		298A44FC1B4A9452009F8668 /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
 		298A44FD1B4A9452009F8668 /* GlassyScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassyScrollView.swift; sourceTree = "<group>"; };
 		298A44FE1B4A9452009F8668 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		298A44FF1B4A9452009F8668 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		298A45001B4A9452009F8668 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +84,6 @@
 				298A44FC1B4A9452009F8668 /* UIImageEffects.swift */,
 				298A44FD1B4A9452009F8668 /* GlassyScrollView.swift */,
 				298A44FE1B4A9452009F8668 /* AppDelegate.swift */,
-				298A44FF1B4A9452009F8668 /* FirstViewController.swift */,
 				298A45001B4A9452009F8668 /* ViewController.swift */,
 				298A44E01B4A93F3009F8668 /* Main.storyboard */,
 				298A44E31B4A93F3009F8668 /* Images.xcassets */,
@@ -225,7 +222,6 @@
 				298A45031B4A9452009F8668 /* AppDelegate.swift in Sources */,
 				298A45021B4A9452009F8668 /* GlassyScrollView.swift in Sources */,
 				298A45011B4A9452009F8668 /* UIImageEffects.swift in Sources */,
-				298A45041B4A9452009F8668 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +420,7 @@
 				298A44F81B4A93F3009F8668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		298A44F91B4A93F3009F8668 /* Build configuration list for PBXNativeTarget "GlassyTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +429,7 @@
 				298A44FB1B4A93F3009F8668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
