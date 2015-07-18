@@ -3,7 +3,7 @@ Parallax effect Inspired by Yahoo Weather App
 
 Check this [article on our blog](http://isame7.github.io/)
 
-<img src="image_iphone6_gold_portrait.png" alt="Screenshot1" width="450px"/>
+<img src="image_iphone6_gold_portrait.png" alt="Screenshot1" width="600px"/>
 <img src="image_iphone6_gold_portrait-2.png" alt="Screenshot2"/>
 ![Preview](https://github.com/Yalantis/Koloda/blob/master/Koloda_example_animation.gif)
 
