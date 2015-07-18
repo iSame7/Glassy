@@ -4,8 +4,8 @@ Parallax effect Inspired by Yahoo Weather App
 Check this [article on my blog](http://isame7.github.io/)
 
 <img src="image_iphone6_gold_portrait.png" alt="Screenshot1" width="230px"/>
-<img src="image_iphone6_gold_portrait-2.png" alt="Screenshot2" width="230px"/>
-<img src="image_iphone6_gold_portrait-1.png" alt="Screenshot2" width="230px"/>
+<img src="image_iphone6_gold_portrait-2.png" alt="Screenshot2" width="240px"/>
+<img src="image_iphone6_gold_portrait-1.png" alt="Screenshot2" width="240px"/>
 
 Purpose
 --------------
@@ -25,7 +25,7 @@ Glassy requires ARC.
 
 ## License
 Panorama is released under the MIT license. See
-[LICENSE](https://github.com/iSame7/Panoramic/blob/master/LICENSE.md).
+[LICENSE](https://github.com/iSame7/glassy/blob/master/LICENSE.md).
 
 Contact
 ----------
