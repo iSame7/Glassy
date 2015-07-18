@@ -20,4 +20,4 @@ Supported OS & SDK Versions
 ARC Compatibility
 ------------------
 
-KolodaView requires ARC. 
+Glassy requires ARC. 
