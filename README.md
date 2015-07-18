@@ -1,9 +1,9 @@
 # Glassy
 Parallax effect Inspired by Yahoo Weather App
 
-Check this [article on our blog](http://isame7.github.io/)
+Check this [article on my blog](http://isame7.github.io/)
 
-<img src="image_iphone6_gold_portrait.png" alt="Screenshot1" width="270px"/>
+<img src="image_iphone6_gold_portrait.png" alt="Screenshot1" width="260px"/>
 <img src="image_iphone6_gold_portrait-2.png" alt="Screenshot2" width="270px"/>
 <img src="image_iphone6_gold_portrait-1.png" alt="Screenshot2" width="270px"/>
 
