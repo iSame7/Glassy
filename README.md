@@ -24,7 +24,7 @@ Glassy requires ARC.
 
 
 ## License
-Panorama is released under the MIT license. See
+Glassy is released under the MIT license. See
 [LICENSE](https://github.com/iSame7/glassy/blob/master/LICENSE.md).
 
 Contact
